@@ -14,6 +14,8 @@
 		<RootNamespace>Ardalis.SmartEnum.JsonNet</RootNamespace>
 		<Features>strict</Features>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
 		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
